@@ -16,9 +16,7 @@ public class Reservation {
     String userId;  //예약자(댕주인)ID
 
     public Reservation(){
-
         setStatus(ReservationStatus.REQUESTED);
-
     }
 
     public Long getReservedId() {
@@ -52,6 +50,22 @@ public class Reservation {
         this.userId = userId;
     }
 
+    public void cancel(Long reservedId){
 
-    
+    }
+
+    public void confirm(Long reservedId){
+
+    }
+
+    public void walkStart(Long reservedId){
+
+
+    }
+
+    public void walkEnd(Long reservedId){
+
+    }
+
+
 }
